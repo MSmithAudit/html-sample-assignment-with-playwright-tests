@@ -1,9 +1,9 @@
 // @ts-check
 const { defineConfig, devices } = require("@playwright/test");
-const {
-  "liveServer.settings.port": liveServerPort,
-} = require("./.vscode/settings.json");
-const mainPageUrl = `http://localhost:${liveServerPort}/`;
+
+
+const mainPageUrl = 'https://localhost:5500/';
+
 
 module.exports = defineConfig({
   testDir: "./tests",
@@ -20,3 +20,4 @@ module.exports = defineConfig({
     },
   ],
 });
+

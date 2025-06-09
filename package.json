@@ -1,7 +1,7 @@
 {
   "name": "html-sample-assignment",
   "version": "1.0.0",
-  "description": "",
+  "description": "In this exercise you will learn to operate with assignments of the HTML&CSS curriculum.",
   "main": "index.js",
   "scripts": {
     "browser-install": "npx playwright install-deps && npx playwright install chromium",
@@ -13,10 +13,21 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.49.1",
+    "@playwright/test": "^1.52.0",
     "@types/node": "^20.11.20"
   },
   "dependencies": {
     "node-html-parser": "^7.0.1"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MSmithAudit/html-sample-assignment-with-playwright-tests.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MSmithAudit/html-sample-assignment-with-playwright-tests/issues"
+  },
+  "homepage": "https://github.com/MSmithAudit/html-sample-assignment-with-playwright-tests#readme"
 }
