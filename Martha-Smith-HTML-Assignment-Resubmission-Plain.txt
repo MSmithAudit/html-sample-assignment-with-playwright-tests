@@ -1,0 +1,45 @@
+Resubmission Notice - Devslopes HTML Sample Assignment
+
+This is a resubmission of the HTML sample assignment, previously submitted in a non-text format. Per the updated instructions, I am submitting this assignment in plain text format.
+
+Assignment Summary
+
+I completed the HTML Sample Assignment by following the Devslopes curriculum. I cloned the GitHub repository, installed dependencies, and ran the automated Playwright tests.
+
+Repository Cloned
+
+https://github.com/devslopes-bootcamp/html-sample-assignment-with-playwright-tests.git
+
+Cloned into:
+
+~/audit-tools/html-sample-assignment-with-playwright-tests/
+
+Commands Executed
+
+git clone https://github.com/devslopes-bootcamp/html-sample-assignment-with-playwright-tests.git
+cd html-sample-assignment-with-playwright-tests
+npm install
+npx playwright install
+npx playwright test
+
+Test Results (Sample Output)
+
+Running 3 tests using 1 worker
+
+  PASS  tests/home.spec.ts
+    ✓ should display the correct page title [chromium]
+    ✓ should have the correct number of sections [chromium]
+    ✓ should have a contact link in the footer [chromium]
+
+  3 passed
+
+All tests passed successfully in the Chromium browser environment.
+
+Notes
+
+- Setup was completed using Node.js, NPM, and Playwright.
+- The HTML met all expectations for title, structure, and footer content.
+- No issues were encountered during testing.
+
+Thank you,
+Martha Smith
