@@ -41,5 +41,7 @@ Notes
 - The HTML met all expectations for title, structure, and footer content.
 - No issues were encountered during testing.
 
+https://github.com/MSmithAudit/html-sample-assignment-with-playwright-tests/blob/main/Martha-Smith-HTML-Assignment-Resubmission-Plain.txt
+
 Thank you,
 Martha Smith
